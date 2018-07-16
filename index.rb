@@ -12,11 +12,10 @@ def sandwich_request(ingredients, order)
     ingredients.each do |ingredient_arr|
       if ingredient_arr.include?(ing)
         return true
-      else
-        return false
       end
     end
   end
+  return false
 end
 
 # example city_info hash
