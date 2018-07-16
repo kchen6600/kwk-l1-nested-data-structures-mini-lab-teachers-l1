@@ -50,3 +50,5 @@ def city_populations(cities)
   end
   return total
 end
+
+city_populations(cities)
