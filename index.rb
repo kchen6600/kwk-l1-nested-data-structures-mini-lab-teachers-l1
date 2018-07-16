@@ -14,8 +14,8 @@ def sandwich_request(ingredients, order)
         return true
       end
     end
+    return false
   end
-  return false
 end
 
 # example city_info hash
