@@ -44,4 +44,9 @@ cities = {
 
 def city_populations(cities)
   # your code here!
+  total = 0
+  cities.each do |city|
+    total += city[:population]
+  end
+  return total
 end
